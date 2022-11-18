@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  vertical-align: middle;
+}
+
+/* =======================================================================
+                           All Common CSS
+======================================================================= */
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 50px;
+}
+#search {
+  width: 400px;
+  height: 50px;
+  padding: 5px 20px;
+  border-radius: 10px;
+  outline: none;
+  border: 2px solid #444;
+  transition: all linear 0.1s;
+}
+#search:focus-visible {
+  outline: none;
+  border: 2px solid #00ff40;
+}
+.list {
+  padding: 5px 0;
+  font-size: 18px;
+}
